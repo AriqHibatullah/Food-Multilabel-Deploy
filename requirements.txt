@@ -2,6 +2,7 @@ streamlit
 opencv-python
 numpy
 rembg
+onnxruntime
 pandas
 scikit-learn
 scikit-image
