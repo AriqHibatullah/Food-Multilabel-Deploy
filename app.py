@@ -1,6 +1,7 @@
 import joblib
 import time
 import cv2
+import gdown
 import pandas as pd
 from PIL import Image
 import streamlit as st
@@ -9,14 +10,19 @@ import plotly.graph_objects as go
 from fungsi import prediksi_gizi, hitung_akg, rekomendasi_makanan
 
 # === Load Model ===
-model = joblib.load("model/Model.pkl")
+url_model = 'https://drive.google.com/uc?id=1xH5cwEzbtNx-_NoViBLqjigI8b-_2U1J'
+gdown.download(url_model, 'Model.pkl', quiet=False)
+model = joblib.load("Model.pkl")
 threshold = joblib.load("model/Thresholds.pkl")
 df_gizi = pd.read_csv("dataset/Nilai Gizi.csv")
 asumsi = df_gizi[['nama', 'takaran saji']]
 df_makanan = pd.read_csv("dataset/Dataset Makanan.csv")
 satuan = ["kj", "kkal", "gram", "gram", "gram"]
 
-pca = joblib.load("scaler/pca hog.pkl")
+url_pca = 'https://drive.google.com/uc?id=13zZ3UoHofn7e_C1E0C8yAwRJv2P5RRK1'
+pca_file = 'pca hog.pkl'
+gdown.download(url_pca, pca_file, quiet=False)
+pca = joblib.load(pca_file)
 scale_hist = joblib.load("scaler/scaler histogram.pkl")
 scale_hog = joblib.load("scaler/scaler hog.pkl")
 scale_lbp = joblib.load("scaler/scaler lbp.pkl")
