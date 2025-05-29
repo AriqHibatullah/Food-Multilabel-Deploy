@@ -1,0 +1,328 @@
+Nama,karbohidrat,protein,kalori,lemak,energi,lemak jenuh,kolestrol,serat,gula,sodium,kalium,kategori makanan,label
+Kentang Goreng,35.66,3.48,274,14.06,1146,3.28,0,3.3,0.58,300,527,nabati,makanan energi
+Mie,25.01,4.51,137,2.06,573,0.42,29,1.2,0.4,236,38,nabati,makanan energi
+Nasi Putih,27.9,2.66,129,0.28,540,0.08,0,0.4,0.05,365,35,nabati,makanan energi
+Roti Putih,50.61,7.64,266,3.29,1113,0.72,0,2.4,4.31,681,100,nabati,makanan energi
+Donat Dilapisi Coklat,48,5,474,31,1983,8.11,61,2,23.37,429,196,campuran,makanan energi
+Spageti,30.68,5.76,157,0.92,657,0.18,0,1.8,0.56,232,45,nabati,makanan energi
+Pizza dengan Daging,31.45,12.09,301,13.8,1259,5.49,24,1.6,2.01,693,206,campuran,makanan energi
+Roti Bakar,53.71,12.84,307,5.62,1283,0.84,0,6.4,4.02,372,330,nabati,makanan energi
+Jasuke,39.72,5.02,197,2.47,824,1.38,8,1,24.55,128,180,nabati,makanan energi
+Ayam Goreng,10.76,21.93,260,14.55,1090,8.96,57,1.4,0.26,350,323,hewani,makanan pembentuk otot
+Martabak Manis,41.52,7.78,300,12.57,1257,5.24,73,2,22.47,250,185,nabati,makanan energi
+Bubur Ayam,15.05,11.48,155,5.16,649,1.4,2.1,30,0.8,0.08,244,campuran,makanan energi
+Nasi Uduk,20.52,2.54,163,8.09,680,7.06,0,1,1.14,198,110,nabati,makanan energi
+Singkong Goreng,31.85,1.38,202,7.91,847,0.61,0,1.5,1.36,281,217,nabati,makanan energi
+Gulai Kambing,6.44,4.71,125,9.6,525,5.52,12,1,3.1,163,173,hewani,makanan energi
+Telur,0.77,12.58,147,9.94,615,3.1,423,0,0.77,140,134,hewani,makanan pembentuk otot
+Kurma,75.03,2.45,282,0.39,1180,0.03,0,8,63.35,2,656,nabati,makanan energi
+Es Krim,24.4,3.52,201,10.72,841,6.62,40,0.7,22.3,74,202,nabati,makanan ringan
+Kacang Almond,19.74,21.26,578,50.64,2418,3.88,0,11.8,4.8,1,728,nabati,makanan pembentuk otot
+Kentang Rebus,20.13,1.87,87,0.1,364,0.03,0,1.8,0.87,4,379,nabati,makanan energi
+Alpukat,8.53,2,160,14.66,669,2.13,0,6.7,0.66,7,485,nabati,makanan low-fat
+Pisang,22.84,1.09,89,0.33,372,0.11,0,2.6,12.23,1,358,nabati,makanan low-fat
+Dendeng Sapi,11,33.2,410,25.6,1715,10.85,48,1.8,9,2213,597,hewani,makanan pembentuk otot
+Keripik Kentang,49.74,6.56,547,37.47,2289,10.96,0,4.4,4.12,525,1642,nabati,makanan low-fat
+Keripik Jagung Tawar,63.01,6.03,518,28.41,2167,3.61,0,5.3,1.16,616,135,nabati,makanan ringan
+Keripik Jagung Tortilla,65.32,7.79,488,23.36,2042,2.46,0,5.3,1,421,215,nabati,makanan ringan
+Keripik Kentang (Asin),49.74,6.56,547,37.47,2289,10.96,0,4.4,4.12,525,1642,nabati,makanan ringan
+Keripik Kentang Bebas Lemak,83.76,9.64,379,0.6,1586,0.15,0,7.5,3.69,643,1628,nabati,makanan low-fat
+Keripik Kentang Rasa Barbecue,52.8,7.7,491,32.4,2054,8.05,0,4.4,2.82,750,1261,nabati,makanan ringan
+Keripik Kentang dengan Lemak yang Dikurangi,66.9,7.1,471,20.8,1971,4.16,0,5.9,0.22,492,1744,nabati,makanan ringan
+Kerupuk / Biskuit,61,7.4,502,25.3,2100,3.78,0,1.6,1.79,847,133,nabati,makanan ringan
+Kerupuk Asin,70.91,9.22,428,11.35,1791,1.66,0,3,0.38,1072,154,nabati,makanan ringan
+Kerupuk Gandum,64.9,8.6,473,20.6,1979,5.18,0,4.5,13.04,795,183,nabati,makanan ringan
+Biskuit Keju,58.2,10.1,503,25.3,2105,9.37,13,2.4,0.28,995,145,nabati,makanan ringan
+Kue Beras Merah,81.5,8.2,387,2.8,1619,0.57,0,4.2,0.88,326,290,nabati,makanan ringan
+Kue Beras Merah Multigrain,80.1,8.5,387,3.5,1619,0.56,0,3,23.84,252,294,nabati,makanan ringan
+Permen Karet (tanpa Gula),94.8,0,268,0.4,1121,0.06,0,2.4,0,7,0,nabati,makanan low-fat
+Permen Karet (Manis),66.08,0,247,0.3,1033,0.04,0,2.4,66.08,1,2,nabati,makanan ringan
+Permen Karet,66.08,0,247,0.3,1033,0.04,0,2.4,66.08,1,2,nabati,makanan ringan
+Popcorn,77.78,12.94,387,4.54,1619,0.64,0,14.5,0.87,8,329,nabati,makanan ringan
+Popcorn Rasa Keju,51.6,9.3,526,33.2,2201,6.41,11,9.9,5.04,889,261,nabati,makanan ringan
+Selai Kacang dan Sandwich Jeli,45.41,11.1,352,15.3,1473,3.15,0,3.1,13.02,519,239,nabati,makanan ringan
+Sandwich Daging Sapi Panggang,19.13,19.74,251,9.92,1050,3.73,49,0.9,1.63,443,269,hewani,makanan pembentuk otot
+Sandwich Ham dan Keju,22.84,14.17,241,10.6,1008,4.41,40,3.27,5.46,528,199,hewani,makanan pembentuk otot
+Sandwich Keju,33.25,10.96,315,15.27,1318,6.48,27,1.5,4.76,884,153,hewani,makanan pembentuk otot
+Sushi,29.9,4.3,143,0.42,598,0.09,3,0.8,6.27,596,129,hewani,makanan pembentuk otot
+Sushi dengan Sayuran dan Seafood,27.5,5.37,139,0.41,582,0.1,7,1.1,5.65,216,132,campuran,makanan low-fat
+Sushi dengan Sayuran,31.68,3.08,145,0.28,607,0.07,0,1.3,6.53,237,100,campuran,makanan low-fat
+Sashimi Salmon,0,21.62,146,5.93,611,1.26,45,0,0,46,423,hewani,makanan pembentuk otot
+Sushi dengan Sayuran yang Digulung dengan Rumput Laut,25.8,2.21,118,0.24,494,0.06,0,0.5,4.47,98,60,campuran,makanan low-fat
+Salad Tuna dengan Keju,6.87,14.44,217,14.72,908,3.66,29,0.4,3.34,500,179,campuran,makanan pembentuk otot
+Salad Tuna dengan Telur,6.26,13.71,196,12.93,820,2.19,64,0.4,2.73,365,162,campuran,makanan pembentuk otot
+Salad Tuna,6.96,14.27,184,11.02,770,1.74,21,0.4,3,388,171,campuran,makanan low-fat
+Salad Sayuran Hijau Campur,3.2,1.52,17,0.24,71,0.04,0,2,0.88,29,291,nabati,makanan low-fat
+Salad Kentang,11.17,2.68,143,8.2,598,1.43,68,1.3,1.72,529,254,nabati,makanan low-fat
+Salad Kentang dengan Telur,15.96,2.77,136,7.05,569,1.24,46,1.5,1.64,488,295,campuran,makanan low-fat
+Nachos dengan Keju,32.15,8.05,306,16.77,1280,6.88,16,2.37,1.79,722,152,nabati,makanan ringan
+Nachos dengan Ayam atau Kalkun dan Keju,12.07,23.21,286,15.94,1197,6.49,73,1,0.3,263,167,campuran,makanan ringan
+Nachos dengan Daging Sapi dan Keju,13.42,22.22,352,23.15,1473,9.8,75,1.1,0.34,297,259,campuran,makanan ringan
+Nachos dengan Daging Sapi. Kacang-kacangan dan Keju,18.57,14.3,275,16.18,1151,6.62,42,3.6,0.53,331,264,campuran,makanan ringan
+Nachos dengan Daging Sapi. Kacang-kacangan. Keju dan Krim Asam,25.03,10.9,290,16.81,1213,5.99,31,3.3,0.85,302,235,campuran,makanan ringan
+Telur Dadar,0.69,10.62,153,12.02,640,3.36,356,0,0.65,161,114,hewani,makanan pembentuk otot
+Telur Ceplok,0.88,13.63,201,15.31,841,4.29,457,0,0.83,204,147,hewani,makanan pembentuk otot
+Telur Rebus,1.12,12.53,154,10.57,644,3.25,422,0,1.12,278,126,hewani,makanan pembentuk otot
+Onion Rings,37.74,4.46,332,18.69,1389,8.38,17,2.2,4.18,518,156,nabati,makanan ringan
+Kentang Panggang (Kulit Dimakan),20.53,2.43,109,2.2,456,0.42,0,2.1,1.14,235,519,nabati,makanan energi
+Pancake Kentang,27.9,6.06,269,14.75,1125,2.49,95,3.2,1.8,764,622,nabati,makanan energi
+Kerupuk Udang,50.08,6.66,541,35.19,2264,9.06,81,0.5,1.89,1364,32,hewani,makanan ringan
+Cimol,41.35,0.97,222,5.22,931,1.39,2.94,29,0.4,0.05,190,nabati,makanan ringan
+Keripik Pisang,58.4,2.3,519,33.6,2171,28.97,0,7.7,35.34,6,536,nabati,makanan ringan
+Bakpia,47.68,9.61,299,7.91,1249,0.95,23,4.8,11.24,118,344,nabati,makanan ringan
+Siomay,16.3,12.26,138,2.29,577,0.58,43,0.8,0.25,352,251,campuran,makanan pembentuk otot
+Pai Apel,37.1,2.4,265,12.5,1109,3.05,0,1.5,12.58,211,79,campuran,makanan ringan
+Brownies,62.54,4.76,379,13.77,1586,2.86,35,2.2,36.76,148,178,campuran,makanan ringan
+Macaroon,72.2,3.6,404,12.7,1690,11.24,0,1.8,70.65,247,156,campuran,makanan ringan
+Tiramisu,24.41,4.77,283,18.2,1184,10.53,167,0.9,16.82,85,129,campuran,makanan ringan
+Wafel Buah,44.8,6.4,278,8.24,1163,1.68,12,2.6,6.1,616,137,campuran,makanan energi
+Mochi Daifuku,49.8,4.83,230,1.13,962,0.23,0,2.5,7.34,247,198,campuran,makanan ringan
+Martabak,40.6,8.15,315,14.65,1319,6.01,72,2.2,22.11,244,199,campuran,makanan energi
+Kolak,20.35,2.01,163,8.83,682,7.8,0,2.8,11.95,51,219,nabati,makanan energi
+Tape Singkong,39.9,2.27,175,0.5,733,0.13,0,1.5,0.85,7,152,nabati,makanan low-fat
+Piscok,37.27,5.72,298,14.29,1247,3.73,38,2.2,14.98,193,240,nabati,makanan ringan
+Dadar Gulung,28.59,4.7,231,11.31,968,8.79,74,1.9,5.8,67,160,hewani,makanan pembentuk otot
+Es Teler,25.88,2.12,177,8.18,740,6.28,4,1.6,18.74,155,204,nabati,makanan ringan
+Es Buah,32.6,0.4,128,0,536,0,0,0,32.6,22,3,nabati,makanan ringan
+Pancake Durian,27.91,3.27,200,8.71,838,4.5,61,1,7.93,61,138,nabati,makanan ringan
+Churros,45.94,2.79,447,28.28,1870,7.72,7,0.7,25.19,144,30,nabati,makanan ringan
+Bingka,39.32,5.2,272,10.68,1139,6.69,92,0.7,2.82,80,119,nabati,makanan ringan
+Tape Ketan Hitam,34.78,3,164,1.05,687,0.11,0,1.3,2.64,8,36,nabati,makanan low-fat
+Red Velvet Cake,46.81,6.81,367,17.18,1535,5.08,9.93,54,1.4,17.37,311,campuran,makanan ringan
+Pais Pisang,28.71,1.9,155,4.22,647,3.52,0,1.5,7.96,67,217,campuran,makanan ringan
+Brownies Pisang Coklat,38.48,4.4,287,14.07,1200,7.85,41,3.5,17.3,63,295,campuran,makanan ringan
+Kue Bolu Coklat,54.68,8.25,297,6.05,1243,2.08,208,1.6,39.95,185,154,campuran,makanan ringan
+Kue Selai Kacang,58.9,9.6,477,23.6,1996,4.49,1,1.8,31.83,415,167,campuran,makanan ringan
+Creme Brulee,21.91,3.38,336,26.79,1408,15.82,237,0,19.87,32,68,campuran,makanan ringan
+Panna Cotta,23.38,1.08,223,12.33,934,7.68,45,0,22.23,38,37,campuran,makanan ringan
+Tart,41.55,3.05,278,11.35,1162,2.26,0,1.4,17.47,215,78,campuran,makanan ringan
+Kue Keranjang,33.84,2.83,148,0.37,617,0.05,0,1.1,20.64,104,105,campuran,makanan ringan
+Donat Isi Custard,30,6.4,361,24.5,1510,5.43,24,0.8,14.55,309,80,campuran,makanan energi
+Cendol,23.49,1.87,155,6.37,648,5.43,0,1.2,8.8,5,106,campuran,makanan ringan
+Fruit Sando,31.17,4.56,204,6.99,855,3.65,19,1.7,6.24,349,127,campuran,makanan ringan
+Putu Mayang,43.66,2.49,209,2.66,873,2.04,0,1.1,14.18,59,88,campuran,makanan ringan
+Bolu Karamel,44.8,4.57,454,29.17,1902,10.12,36,0.8,22.9,223,106,campuran,makanan ringan
+Biji Salak,24.04,0.86,133,4.13,555,3.65,0,1.3,10.4,34,173,campuran,makanan ringan
+Ubi Jalar (Manis),20.12,1.57,86,0.05,360,0.02,0,3,4.18,55,337,nabati,makanan energi
+Bolu Tape,49.69,5.01,324,11.43,1356,6.68,77,1.2,18.16,182,120,campuran,makanan ringan
+Permen Coklat Susu,59.4,7.65,535,29.66,2238,14.23,23,3.4,51.5,79,372,nabati,makanan ringan
+Kue Gandum,68.7,6.2,450,18.1,1883,4.52,0,2.8,24.66,383,142,campuran,makanan low-fat
+Pai Ceri,39.8,2,260,11,1088,2.56,0,0.8,14.29,246,81,campuran,makanan ringan
+Puding Coklat,23,2.7,139,4,582,0.71,3,1,17.85,129,180,nabati,makanan ringan
+Wafer Coklat,72.4,6.6,433,14.2,1812,4.24,2,3.4,29.66,580,210,campuran,makanan ringan
+Donat (Tawar),49.7,5,421,22.9,1761,3.62,37,1.5,22.5,546,127,campuran,makanan low-fat
+Es Krim Vanila,23.6,3.5,201,11,841,6.79,44,0.7,21.22,80,199,hewani,makanan ringan
+Puding Vanila,22,2.3,130,3.6,544,1.51,7,0,20.2,135,113,nabati,makanan ringan
+Roti Bagel,50.5,10.02,257,1.62,1075,0.39,0,2.2,5.05,448,75,campuran,makanan energi
+Permen Coklat Manis,59.6,3.9,505,34.2,2113,20.08,0,5.5,51.48,16,290,nabati,makanan ringan
+Blueberry Muffin,48,5.5,277,6.5,1159,1.4,30,2.6,19.7,447,123,campuran,makanan ringan
+Pancake Oat,31.41,5.53,208,6.81,869,1.54,19,1.7,9.04,284,320,campuran,makanan energi
+Cookies,60.26,5.71,460,22.03,1923,13.71,57,1.4,19.9,4,64,campuran,makanan ringan
+Kue Denmark,44.6,7,403,22.4,1686,5.68,21,1.3,19.78,371,125,campuran,makanan ringan
+Puding Roti,23.26,5.27,153,4.74,640,1.65,62,0.9,14.72,236,216,campuran,makanan ringan
+Ayam,0,27.07,237,13.49,992,3.76,87,0,0,404,221,hewani,makanan pembentuk otot
+Ayam (Kulit tidak Dimakan),0,28.69,188,7.35,787,2.02,88,0,0,408,241,hewani,makanan pembentuk otot
+Dada Ayam,0,29.55,195,7.72,816,2.17,83,0,0,393,243,hewani,makanan pembentuk otot
+Paha Ayam,0,24.85,245,15.36,1025,4.29,92,0,0,406,220,hewani,makanan pembentuk otot
+Sayap Ayam,0,26.64,288,19.3,1205,5.4,83,0,0,404,183,hewani,makanan pembentuk otot
+Daging Ayam (Panggang),0,20.33,111,2.7,464,0.67,65,0,0,75,238,hewani,makanan pembentuk otot
+Daging dan Kulit Ayam (Panggang),0,17.14,216,15.85,904,4.53,73,0,0,68,196,hewani,makanan pembentuk otot
+Daging Babi Panggang,0,26.98,247,14.59,1033,5.35,82,0,0,221,406,hewani,makanan pembentuk otot
+Babi Panggang (Hanya Daging yang Dimakan),0,28.45,208,9.57,870,3.49,81,0,0,289,423,hewani,makanan pembentuk otot
+Bahu Daging Babi Panggang,0,23.18,291,21.3,1218,7.83,90,0,0,230,328,hewani,makanan pembentuk otot
+Bakso Daging Sapi,7.58,12.41,202,13.16,845,4.98,74,0.5,1.51,478,213,hewani,makanan pembentuk otot
+Bakso Daging Sapi dan Babi,7.15,13.61,178,10.19,746,3.79,72,0.4,1.43,452,242,hewani,makanan pembentuk otot
+Bakso Ayam,6.94,19.39,161,5.62,672,1.61,82,0.5,1.45,442,199,hewani,makanan pembentuk otot
+Bakso Kalkun,6.94,19.63,149,4.16,622,1.37,74,0.5,1.45,432,232,hewani,makanan pembentuk otot
+Bakso Daging Babi,4.76,19.83,166,6.98,696,2.02,83,0.2,0.51,796,287,hewani,makanan pembentuk otot
+Daging Bebek,0,18.28,132,5.95,552,2.32,77,0,0,74,271,hewani,makanan pembentuk otot
+Dada Ayam (Kulit tidak Dimakan),0,30.76,164,3.54,686,1,84,0,0,396,254,hewani,makanan pembentuk otot
+Daging Dada Kalkun,4.21,17.07,104,1.66,435,0.48,43,0.5,3.51,1015,302,hewani,makanan pembentuk otot
+Daging Dada dan Kulit Kalkun,0,21.89,157,7.02,657,1.91,65,0,6.9,59,275,hewani,makanan pembentuk otot
+Daging Babi,0,27.34,271,17.04,1134,6.17,90,0,0,384,351,hewani,makanan pembentuk otot
+Daging Babi Giling,0,16.88,263,21.19,1100,7.87,72,0,6.13,56,287,hewani,makanan pembentuk otot
+Potongan Daging Babi,0,27.91,250,14.57,1046,5.4,83,0,0,386,404,hewani,makanan pembentuk otot
+Iga Babi,0,28.94,395,30.17,1653,11.07,120,0,0,255,319,hewani,makanan pembentuk otot
+Potongan Daging Domba,0,22.03,314,24.37,1314,10.65,95,0,0,390,255,hewani,makanan pembentuk otot
+Domba Giling,0,16.56,282,23.41,1180,10.19,73,0,0,59,222,hewani,makanan pembentuk otot
+Daging Domba Panggang,0,23.93,266,18.15,1113,7.63,92,0,0,228,281,hewani,makanan pembentuk otot
+Potongan Daging Domba (Daging dan Lemak Dimakan),0,22.03,314,24.37,1314,10.65,95,0,0,390,255,hewani,makanan pembentuk otot
+Daging Sapi,0,26.33,288,19.54,1205,7.73,87,0,0,384,315,hewani,makanan pembentuk otot
+Daging Sapi Giling,0,25.35,276,18.58,1155,7.19,88,0,0,400,287,hewani,makanan pembentuk otot
+Daging Sapi Giling tanpa Lemak,0,25.54,269,17.67,1125,6.71,90,0,0,397,302,hewani,makanan pembentuk otot
+Daging Sapi Panggang,0,25.91,267,17.32,1117,6.81,76,0,0,217,292,hewani,makanan pembentuk otot
+Daging Kornet,0.47,18.17,251,18.98,1050,6.34,98,0,0,1134,145,hewani,makanan pembentuk otot
+Daging Sapi Ekstra tanpa Lemak,0,25.71,248,15.35,1038,5.84,89,0,0,394,315,hewani,makanan pembentuk otot
+Daging Sapi Panggang (Hanya Bagian tanpa Lemak yang Dimakan),0,28.32,198,8.52,828,3.23,75,0,0,217,306,hewani,makanan pembentuk otot
+Iga Babi Panggang dengan Saus,4.2,21.44,310,22.33,1297,8.07,87,0.4,1.29,334,287,hewani,makanan pembentuk otot
+Kalkun,0,28.9,187,7.02,782,2,77,0,0,69,291,hewani,makanan pembentuk otot
+Paha Ayam Panggang,0,24.85,245,15.36,1025,4.29,92,0,0,406,220,hewani,makanan pembentuk otot
+Paha Ayam Panggang (Kulit Dimakan),0,24.85,245,15.36,1025,4.29,92,0,0,406,220,hewani,makanan pembentuk otot
+Punggung Sapi,0,24.84,342,26.15,1431,10.2,93,0,0,225,242,hewani,makanan pembentuk otot
+Daging Punggung Sapi (Hanya Bagian tanpa Lemak yang Dimakan),0,29.63,230,11.53,962,4.13,93,0,0,232,284,hewani,makanan pembentuk otot
+Kornet Daging Punggung Sapi (Diawetkan),0.14,14.68,198,14.9,828,4.73,54,0,2.5,1217,297,hewani,makanan pembentuk otot
+Sosis Daging Sapi,3.99,11.04,325,29.08,1360,11.52,54,0,2.54,1126,161,hewani,makanan pembentuk otot
+Sosis Ayam,1.52,17.82,172,9.98,718,2.56,3.6,79,0,0,722,hewani,makanan pembentuk otot
+Sosis Babi Segar,0,15.09,304,26.53,1272,8.8,11.89,72,0,0,636,hewani,makanan pembentuk otot
+Sosis Kalkun,0.47,18.79,155,8.08,649,1.96,2.62,75,0,0,593,hewani,makanan pembentuk otot
+Sosis Italia,4.27,19.12,344,27.31,1439,9.54,57,0.1,0.86,1207,304,hewani,makanan pembentuk otot
+Telur Bebek,1.45,12.81,185,13.77,774,3.68,884,0,0.93,146,222,hewani,makanan pembentuk otot
+Sayap Ayam Panggang (Kulit Dimakan),0,26.64,288,19.3,1205,5.4,83,0,0,404,183,hewani,makanan pembentuk otot
+Guacamole dengan Tomat,7.64,1.62,116,9.94,485,1.45,0,4.9,1.37,201,393,nabati,makanan low-fat
+Guacamole,8.51,1.96,157,14.31,657,2.08,0,6.6,0.71,148,476,nabati,makanan low-fat
+Guacamole dengan Tomat dan Cabe Paprika,7.62,1.62,114,9.75,477,1.42,0,4.9,1.42,197,392,nabati,makanan low-fat
+Buah Anggur,18.1,0.72,69,0.16,289,0.05,0,0.9,15.48,2,191,nabati,makanan low-fat
+Anggur (Merah atau Hijau. Jenis Varietas Eropa Seperti Thompson tanpa Biji),18.1,0.72,69,0.16,289,0.05,0,0.9,15.48,2,191,nabati,makanan low-fat
+Anggur Jenis Amerika (Kulit Licin),17.15,0.63,67,0.35,280,0.11,0,0.9,16.25,2,191,nabati,makanan low-fat
+Anggur Jenis Eropa,18.1,0.72,69,0.16,289,0.05,0,0.9,15.48,2,191,nabati,makanan low-fat
+Apel,13.81,0.26,52,0.17,218,0.03,0,2.4,10.39,1,107,nabati,makanan low-fat
+Apel (tanpa Kulit),12.76,0.27,48,0.13,201,0.02,0,1.3,10.1,0,90,nabati,makanan low-fat
+Apel Emas Lezat,13.81,0.26,52,0.17,220,0.03,0,2.4,10.39,1,107,nabati,makanan low-fat
+Apel Fuji,13.81,0.26,52,0.17,216,0.03,0,2.4,10.39,1,107,nabati,makanan low-fat
+Blewah Melon,8.16,0.84,34,0.19,142,0.05,0,0.9,7.86,16,267,nabati,makanan low-fat
+Blueberi,14.49,0.74,57,0.33,238,0.03,0,2.4,9.96,1,77,nabati,makanan low-fat
+Blueberry Tawar dalam Kemasan Air (Dimasak atau Kalengan),9.71,0.5,38,0.22,159,0.02,0,1.6,6.67,1,46,nabati,makanan low-fat
+Beri,7.98,0.68,33,0.3,138,0.02,0,2.1,4.87,1,150,nabati,makanan low-fat
+Stroberi,7.68,0.67,32,0.3,134,0.02,0,2,4.66,1,153,nabati,makanan low-fat
+Rasberi,11.94,1.2,52,0.65,218,0.02,0,6.5,4.42,1,151,nabati,makanan low-fat
+Blackberry,9.61,1.39,43,0.49,180,0.01,0,5.3,4.88,1,162,nabati,makanan low-fat
+Campuran Buah Kering,64.81,2.19,244,0.44,1021,0.06,0,7.4,47.66,17,746,nabati,makanan low-fat
+Apel Kering,65.89,0.93,243,0.32,1017,0.05,0,8.7,57.19,87,450,nabati,makanan low-fat
+Cranberry Kering,82.36,0.07,308,1.37,1289,0.1,0,5.7,65,3,40,nabati,makanan low-fat
+Prune Kering,63.88,2.18,240,0.38,1004,0.09,0,7.1,38.13,2,732,nabati,makanan low-fat
+Aprikot Kering,62.64,3.39,241,0.51,1008,0.02,0,7.3,53.44,10,1162,nabati,makanan low-fat
+Buah Pir,15.46,0.38,58,0.12,243,0.01,0,3.1,9.8,1,119,nabati,makanan low-fat
+Pir (Dimasak atau Kalengan),19.17,0.2,74,0.13,310,0.01,0,1.6,15.2,5,65,nabati,makanan low-fat
+Pir Asia,10.65,0.5,42,0.23,176,0.01,0,3.6,7.05,0,121,nabati,makanan low-fat
+Pir (Padat dan Cair. Kemasan Sirup Ringan. Kalengan),15.17,0.19,57,0.03,238,0,0,1.6,12.1,5,66,nabati,makanan low-fat
+Ceri Manis,16.01,1.06,63,0.2,264,0.04,0,2.1,12.82,0,222,nabati,makanan low-fat
+Bing Ceri,16.01,1.06,63,0.2,264,0.04,0,2.1,12.82,0,222,nabati,makanan low-fat
+Ceri Beku,11.02,0.92,46,0.44,192,0.1,0,1.6,9.02,1,124,nabati,makanan low-fat
+Ceri Merah Asam,12.18,1,50,0.3,209,0.07,0,1.6,8.49,3,173,nabati,makanan low-fat
+Jeruk,11.75,0.94,47,0.12,197,0.02,0,2.4,9.35,0,181,nabati,makanan low-fat
+Jeruk Keprok (Jeruk Mandarin),13.34,0.81,53,0.31,222,0.04,0,1.8,10.58,2,166,nabati,makanan low-fat
+Jeruk Bali,8.08,0.63,32,0.1,134,0.01,0,1.1,6.98,0,139,nabati,makanan low-fat
+Jeruk Bali (Merah dan Merah Muda),10.66,0.77,42,0.14,176,0.02,0,1.6,6.89,0,135,nabati,makanan low-fat
+Jeruk Mandarin (Kaleng atau Beku),16.19,0.45,61,0.1,255,0.01,0,0.7,15.49,6,78,nabati,makanan low-fat
+Jeruk Keprok (Jeruk Mandarin. Jus Kemasan. Kalengan),9.57,0.62,37,0.03,155,0,0,0.7,8.87,5,133,nabati,makanan low-fat
+Jeruk Keprok (Jeruk Mandarin. Sirup Ringan Kemasan. Kalengan),16.19,0.45,61,0.1,255,0.01,0,0.7,15.49,6,78,nabati,makanan low-fat
+Kelapa,15.23,3.33,354,33.49,1481,29.7,0,9,6.23,20,356,nabati,makanan low-fat
+Air Kelapa,3.71,0.72,19,0.2,79,0.18,0,1.1,2.61,105,250,nabati,makanan low-fat
+Kismis,79.18,3.07,299,0.46,1251,0.06,0,3.7,59.19,11,749,nabati,makanan low-fat
+Kismis (tanpa Biji),79.18,3.07,299,0.46,1251,0.06,0,3.7,59.19,11,749,nabati,makanan low-fat
+Kismis Dilapisi Coklat,68.3,4.1,390,14.8,1632,8.8,3,4.2,62.22,36,514,nabati,makanan low-fat
+Kismis Dilapisi Coklat Susu,68.3,4.1,390,14.8,1632,8.8,3,4.2,62.22,36,514,nabati,makanan low-fat
+Mangga,17,0.51,65,0.27,272,0.07,0,1.8,14.8,2,156,nabati,makanan low-fat
+Mangga Kering,81.61,1.48,314,0.78,1314,0.19,0,5.2,75.2,6,454,nabati,makanan low-fat
+Nektar Mangga,15.16,0.2,58,0.11,243,0.03,0,0.7,14.27,2,56,nabati,makanan low-fat
+Nanas,12.63,0.54,48,0.12,201,0.01,0,1.4,9.26,1,115,nabati,makanan low-fat
+Nanas (Padat dan Cair. Air Kemasan. Kalengan),8.3,0.43,32,0.09,134,0.01,0,0.8,7.5,1,127,nabati,makanan low-fat
+Nanas Potongan (Manis. Beku),22.2,0.4,86,0.1,360,0.01,0,1.1,21.1,2,100,nabati,makanan low-fat
+Nanas (Padat dan Cair. Kemasan Sirup Ringan. Kalengan),13.45,0.36,52,0.12,218,0.01,0,0.8,12.65,1,105,nabati,makanan low-fat
+Nanas (Padat dan Cair. Jus Kemasan. Kalengan),15.7,0.42,60,0.08,251,0.01,0,0.8,14.45,1,122,nabati,makanan low-fat
+Pepaya,9.81,0.61,39,0.14,163,0.04,0,1.8,5.9,3,257,nabati,makanan low-fat
+Jus Pepaya,14.51,0.17,57,0.15,238,0.05,0,0.6,13.91,5,31,nabati,makanan low-fat
+Pisang Apel,22.84,1.09,89,0.33,372,0.11,0,2.6,12.23,1,358,nabati,makanan low-fat
+Rasberi Merah,11.94,1.2,52,0.65,218,0.02,0,6.5,4.42,1,151,nabati,makanan low-fat
+Rasberi Beku tanpa Pemanis,11.94,1.2,52,0.65,218,0.02,0,6.5,4.42,1,136,nabati,makanan low-fat
+Rasberi Beku,26.16,0.7,103,0.16,431,0,0,4.4,21.76,1,114,nabati,makanan low-fat
+Salad Buah,13.16,0.67,57,0.86,237,0.65,0,1.8,10.77,6,141,nabati,makanan low-fat
+Jus Semangka,7.55,0.61,30,0.15,126,0.02,0,0.4,6.2,1,112,nabati,makanan low-fat
+Semangka,7.55,0.61,30,0.15,126,0.02,0,0.4,6.2,1,112,nabati,makanan low-fat
+Stroberi Beku tanpa Pemanis,9.13,0.43,35,0.11,146,0.01,0,2.1,4.56,2,148,nabati,makanan low-fat
+Stroberi Beku,23.46,0.52,87,0.14,364,0.01,0,1.9,21.49,2,98,nabati,makanan low-fat
+Stroberi Beku dengan Gula,23.46,0.52,87,0.14,364,0.01,0,1.9,21.49,2,98,nabati,makanan low-fat
+Makaroni,30.68,5.76,157,0.92,657,0.18,0,1.8,0.56,232,45,nabati,makanan energi
+Makaroni Gandum,26.38,5.3,123,0.54,515,0.1,0,2.8,0.8,234,44,nabati,makanan energi
+Makaroni atau Mie dengan Keju,21.46,7.94,203,9.4,849,3.96,17,1.1,3.59,392,135,nabati,makanan energi
+Makaroni Krim dengan Keju,24.09,8.13,208,8.59,870,3.69,16,1.4,0.52,167,61,nabati,makanan energi
+Mie Telur (Ditambah. Masak),25.16,4.54,138,2.07,577,0.42,0.58,29,1.2,0.4,5,campuran,makanan energi
+Mie Gandum,23.49,5.31,120,1.37,502,0.34,32,3.9,0.19,158,140,nabati,makanan energi
+Bihun (Dimasak),24.9,0.91,109,0.2,456,0.02,0,1,19.61,19,4,nabati,makanan energi
+Mie Cina Chow Mein,57.54,8.38,527,30.76,2205,4.38,0,3.9,0.26,439,120,nabati,makanan energi
+Nasi Putih Instan,24.87,2.16,116,0.5,485,0.02,0,0.6,0,353,9,nabati,makanan energi
+Nasi Merah,22.78,2.56,110,0.89,460,0.18,0,1.8,0.35,301,43,nabati,makanan energi
+Nasi Goreng,21.06,6.3,168,6.23,703,1.14,52,0.7,0.76,415,102,campuran,makanan energi
+Nasi Goreng Ayam,21.12,6.29,166,6.04,695,1.23,53,0.7,0.7,302,125,campuran,makanan energi
+Nasi Goreng Babi,21.18,6.03,169,6.5,707,1.42,52,0.7,0.71,302,137,campuran,makanan energi
+Nasi Goreng Udang,21.15,5.53,162,5.86,678,0.99,64,0.7,0.76,467,83,campuran,makanan energi
+Nasi Merah Instan,22.78,2.56,110,0.89,460,0.18,0,1.8,0.35,301,43,nabati,makanan energi
+Pasta dengan Saus Daging,13.07,7.93,129,5.12,540,1.7,20,1.5,3.32,740,318,campuran,makanan energi
+Pasta tanpa Daging dengan Saus Tomat,16.76,3.05,83,0.47,347,0.09,0,1.4,2.56,166,143,nabati,makanan energi
+Spageti Gandum,26.38,5.3,123,0.54,515,0.1,0,4.5,0.8,234,44,nabati,makanan energi
+Chicken Nugget,16.32,15.59,297,18.82,1243,4.02,55,0.9,0.88,574,261,campuran,makanan pembentuk otot
+Ayam Nugget Rendah Lemak,13.79,19.29,195,6.33,816,1.66,49,0.6,0.55,475,161,campuran,makanan pembentuk otot
+Kari Ayam,4.74,11.47,124,6.67,519,1.36,35,0.9,2.07,484,249,hewani,makanan pembentuk otot
+Kari Daging Sapi,5.8,11.69,184,12.96,770,2.88,26,1.2,2.73,551,384,hewani,makanan pembentuk otot
+Kari Daging Domba,1.57,11.96,109,5.86,456,1.67,38,0.4,0.54,210,209,hewani,makanan pembentuk otot
+Kentang Goreng Dilapisi Roti atau Mentega,31.14,5.83,322,19.6,1347,3.57,1,1.6,4.32,409,321,nabati,makanan ringan
+Pizza Keju,30.33,12.33,276,11.74,1155,5,24,1.9,3.56,537,161,campuran,makanan energi
+Pizza Keju dengan Sayuran,29.46,8.89,230,8.52,962,3.34,10,1.8,2.44,520,194,campuran,makanan energi
+Pizza dengan Daging dan Sayuran,27.42,10.16,256,11.68,1071,4.53,20,1.7,2.27,598,207,campuran,makanan pembentuk otot
+Pizza dengan Daging dan Buah,28.76,9.94,230,8.3,962,3.29,15,1.6,3.9,581,196,campuran,makanan pembentuk otot
+Pizza Keju Kerak Tipis,29.45,12.5,281,12.53,1176,5.34,25,1.9,3.55,536,162,campuran,makanan energi
+Pizza Keju Kerak Tebal,31.65,12.07,270,10.55,1130,4.51,22,1.9,3.56,538,161,campuran,makanan energi
+Pizza Keju dengan Sayuran Kerak Tipis,25.25,9.04,213,8.54,891,3.55,12,1.8,2.64,528,210,campuran,makanan energi
+Taco Ayam. Keju. Selada. Tomat dan Salsa,12.46,12.8,180,8.92,753,3.01,36,1.8,1.24,256,200,campuran,makanan energi
+Taco Daging Sapi. Keju dan Selada,20.77,13.95,283,16.22,1184,5.03,40,2.7,0.6,592,229,campuran,makanan energi
+Taco Daging. Keju. Selada. Tomat dan Salsa,13.2,11.65,209,12.35,874,4.57,35,1.9,1.32,274,251,campuran,makanan energi
+Taco Kacang. Keju. Daging. Selada. Tomat dan Salsa,15.11,9.78,182,9.46,761,3.28,26,2.8,1.27,330,238,campuran,makanan energi
+Taco Kacang. Keju. Selada. Tomat dan Salsa,18.66,6.01,164,7.76,686,2.55,10,4.3,1.27,316,259,campuran,makanan energi
+Yogurt Polos,7.04,5.25,63,1.55,264,1,6,0,7.04,70,234,nabati,makanan low-fat
+Yogurt Polos Rendah Lemak,7.04,5.25,63,1.55,264,1,6,0,7.04,70,234,nabati,makanan low-fat
+Yogurt Polos tanpa Lemak,7.68,5.73,56,0.18,234,0.12,2,0,7.68,77,255,nabati,makanan low-fat
+Yoghurt Vanila (Rendah Lemak),13.8,4.93,85,1.25,356,0.81,5,0,13.8,66,219,nabati,makanan low-fat
+Tahu Goreng,10.49,17.19,271,20.18,1134,2.92,0,3.9,2.72,16,146,nabati,makanan pembentuk otot
+Tempe Goreng,11.94,13.31,225,15.21,943,2.1,0,0.3,0.18,277,315,nabati,makanan pembentuk otot
+Tahu Isi,7.21,8.54,112,5.53,468,1.04,1.98,46,1,1.4,270,nabati,makanan pembentuk otot
+Tempe Rebus,9.35,18.19,196,11.38,820,3.4,39,2.47,7.65,14,401,nabati,makanan pembentuk otot
+Jagung dengan Mentega,21.88,3.06,106,2.35,444,1.12,4,16.23,1.41,20,246,nabati,makanan energi
+Jagung,19.02,3.22,86,1.18,360,0.18,0,2.7,3.22,15,270,nabati,makanan energi
+Bubur Jagung,9.55,1.06,45,0.14,188,0.02,0,0.2,0.08,131,16,nabati,makanan energi
+Lumpia Ayam,11.12,4.73,101,4.07,422,0.87,45,0.7,0.57,194,88,campuran,makanan ringan
+Sayur Lumpia,11.63,3.1,98,4.43,409,0.87,36,1,1.18,324,117,campuran,makanan ringan
+Lumpia Udang,11.55,4.09,104,4.64,436,0.91,51,0.9,0.84,378,113,campuran,makanan ringan
+Lumpia Babi,10.88,5.94,116,5.36,485,1.23,44,0.8,0.79,321,149,campuran,makanan ringan
+Risoles,14.43,10.54,160,6.25,668,2.54,2.58,41,0.6,1.06,202,campuran,makanan ringan
+Risol Mayo,23.94,9.32,275,15.47,1149,4.23,5.94,112,0.7,1.86,329,campuran,makanan ringan
+Risol Bihun,14.46,10.79,156,5.82,652,1.27,2.39,144,0.9,2.06,203,campuran,makanan ringan
+Risol Ragout,21.38,10.18,250,13.65,1045,6.56,4.47,61,1.1,1.74,318,campuran,makanan ringan
+Biskuit Tawar atau Mentega,44.6,7,353,16.3,1477,4.32,3,1.5,2.18,580,121,nabati,makanan ringan
+Biskuit Gandum,46.22,9.67,311,11.58,1301,2.66,3,7.3,2.59,903,310,nabati,makanan ringan
+Biskuit Tawar atau dengan Mentega (Rendah Lemak),47.6,6.7,257,4.5,1075,1.11,0,1.6,7,1248,159,nabati,makanan ringan
+Biskuit Tawar atau Mentega (Campuran Kering. Siap),48.4,7.3,335,12.1,1402,2.79,4,1.8,3.93,955,188,nabati,makanan ringan
+Tepung Tortilla,51.35,8.29,312,7.75,1305,1.89,0,3.1,1.92,636,155,nabati,makanan energi
+Tortilla Jagung,44.64,5.7,218,2.85,912,0.45,0,6.3,0.88,45,186,nabati,makanan energi
+Gandum Tortilla,55.82,9.61,263,1.3,1100,0.23,0,7.1,0.28,486,239,nabati,makanan energi
+Oatmeal,10.84,2.59,62,1.02,259,0.18,0,1.6,0.24,119,54,nabati,makanan energi
+Oatmeal Instan,18.22,2.46,91,1.2,381,0.22,0,1.9,6.58,122,78,nabati,makanan energi
+Oatmeal dengan Buah,16.16,2.64,81,0.98,339,0.17,0,1.8,4.76,111,108,nabati,makanan energi
+Oatmeal Multigrain,13.88,2.14,63,0.49,264,0.1,0,2.3,0.11,71,74,nabati,makanan energi
+Roti Gandum,47.14,9.13,259,4.11,1084,0.9,0,4.4,5.49,530,204,campuran,makanan energi
+Roti Multigrain,46.4,10,251,3.8,1050,0.81,0,6.4,10.05,487,204,campuran,makanan energi
+Roti Gandum Hitam,48.3,8.5,259,3.3,1084,0.63,0,5.8,3.85,660,166,campuran,makanan energi
+Bagel Gandum,58.41,10.41,286,1.4,1197,0.21,0,4.4,1.81,509,189,campuran,makanan energi
+Bagel Panggang,57.11,11.14,288,1.72,1205,0.28,0,2.6,5.82,480,85,campuran,makanan energi
+Bagel Kismis Kayu Manis,55.2,9.8,273,1.7,1142,0.27,0,2.3,5.98,322,148,campuran,makanan energi
+Roti Kismis,52.3,7.9,274,4.4,1146,1.08,0,4.3,2.26,390,227,campuran,makanan energi
+Roti Kismis Panggang,56.9,8.6,297,4.8,1243,1.18,0,4.7,6.18,424,246,campuran,makanan energi
+Roti Panggang Putih,54.4,9,293,4,1226,0.58,1,2.5,4.74,592,131,campuran,makanan energi
+Corn Flakes,86.7,6.7,360,0.1,1506,0,0,4.5,6.5,949,117,campuran,makanan energi
+Roti Pita,55.7,9.1,275,1.2,1151,0.17,0,2.2,1.3,536,120,campuran,makanan energi
+Roti Gandum Pita,55.8,10.47,273,1.43,1142,0.22,0,5.3,0.26,418,214,campuran,makanan energi
+Roti Panggang Pita,61.21,10,302,1.32,1264,0.18,0,2.4,1.43,589,132,campuran,makanan energi
+Roti Keju,48.14,8.5,273,4.78,1142,1.74,5,2.3,4.12,678,100,campuran,makanan energi
+Roti Goreng,47.69,7.18,320,11.36,1337,2.87,0,3.5,0.2,541,124,campuran,makanan energi
+Roti Baguette,51.9,8.8,274,3,1146,0.64,0,3,0.24,609,113,campuran,makanan energi
+Cromboloni,44.87,6.37,375,18.99,1571,5.05,67,1.2,9.52,270,87,campuran,makanan ringan
+Odading,48.15,8.26,321,10.36,1343,1.34,93,1.6,10.17,542,99,campuran,makanan ringan
+Bika Ambon,53.34,3.11,264,4.44,1103,3.01,64,1.2,27.26,92,62,campuran,makanan ringan
+Roti Sosis,32.28,9.69,324,17.05,1357,5.8,23,1.1,0.52,851,132,campuran,makanan energi
+Roti Kentang,50.61,7.64,266,3.29,1113,0.72,0,2.4,4.31,681,100,campuran,makanan energi
+Roti Canai,47.83,6.64,318,10.81,1331,2.74,0,2.2,0.18,597,81,campuran,makanan energi
+Roti Italia,50,8.8,271,3.5,1134,0.86,0,2.7,0.83,584,110,campuran,makanan energi
+Sereal Granola,52.95,14.87,490,24.36,2050,4.54,0,8.6,20.1,22,537,nabati,makanan energi
+Croissant,45.8,8.2,406,21,1699,11.66,67,2.6,11.26,744,118,campuran,makanan ringan
+Lidah Kucing,52.6,4.98,456,24.93,1909,8.52,31,1.4,12.77,402,82,campuran,makanan ringan
+Kue Mentega atau Gula,65.6,5.45,475,21.6,1987,6.77,56,0.9,26.69,417,104,campuran,makanan ringan
+Kue Sus,23.55,6.55,260,15.6,1088,3.9,130,0.5,8.04,339,116,campuran,makanan ringan
