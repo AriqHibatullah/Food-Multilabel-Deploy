@@ -1,6 +1,6 @@
-streamlit==1.45.1
-rembg==2.0.50
-onnxruntime==1.17.3
+streamlit
+rembg
+onnxruntime
 opencv-python
 numpy
 pandas
