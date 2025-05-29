@@ -6,7 +6,6 @@ pandas
 scikit-learn
 scikit-image
 joblib
-time
 Pillow
 plotly
 gdown
