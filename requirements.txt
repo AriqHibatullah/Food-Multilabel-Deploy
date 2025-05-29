@@ -1,0 +1,11 @@
+streamlit
+opencv-python
+numpy
+rembg
+pandas
+scikit-learn
+scikit-image
+joblib
+time
+Pillow
+plotly
