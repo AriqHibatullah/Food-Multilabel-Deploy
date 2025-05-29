@@ -9,18 +9,18 @@ import plotly.graph_objects as go
 from fungsi import prediksi_gizi, hitung_akg, rekomendasi_makanan
 
 # === Load Model ===
-model = joblib.load("Model.pkl")
-threshold = joblib.load("Thresholds.pkl")
-df_gizi = pd.read_csv("Nilai Gizi.csv")
+model = joblib.load("model/Model.pkl")
+threshold = joblib.load("model/Thresholds.pkl")
+df_gizi = pd.read_csv("dataset/Nilai Gizi.csv")
 asumsi = df_gizi[['nama', 'takaran saji']]
-df_makanan = pd.read_csv("Dataset Makanan.csv")
+df_makanan = pd.read_csv("dataset/Dataset Makanan.csv")
 satuan = ["kj", "kkal", "gram", "gram", "gram"]
 
-pca = joblib.load("pca hog.pkl")
-scale_hist = joblib.load("scaler histogram.pkl")
-scale_hog = joblib.load("scaler hog.pkl")
-scale_lbp = joblib.load("scaler lbp.pkl")
-scale_glcm = joblib.load("scaler glcm.pkl")
+pca = joblib.load("scaler/pca hog.pkl")
+scale_hist = joblib.load("scaler/scaler histogram.pkl")
+scale_hog = joblib.load("scaler/scaler hog.pkl")
+scale_lbp = joblib.load("scaler/scaler lbp.pkl")
+scale_glcm = joblib.load("scaler/scaler glcm.pkl")
 
 # === Fungsi ===
 def resize_image(image, max_height):
