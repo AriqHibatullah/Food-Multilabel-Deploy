@@ -297,7 +297,7 @@ with col2 :
                         textfont=dict(color="white"),
                         textposition="outside",
                         name="Kalori didapat",
-                        width=0.6
+                        width=0.4
                     ))
 
                     fig.add_annotation(
