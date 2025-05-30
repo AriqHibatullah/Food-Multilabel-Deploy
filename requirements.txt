@@ -1,8 +1,8 @@
 streamlit
 rembg
 onnxruntime
-opencv-python-headless==4.7.0.72
 numpy
+opencv-python-headless==4.7.0.72
 pandas
 scikit-learn
 scikit-image
