@@ -1,6 +1,5 @@
 import joblib
 import time
-import cv2
 import gdown
 import pandas as pd
 from PIL import Image
@@ -151,7 +150,7 @@ with col2 :
                             Silahkan cek hasil remove background dibawah ini :
                         """)
                         if st.session_state.no_bg is not None :
-                            hasil_nobg = cv2.cvtColor(st.session_state.no_bg, cv2.COLOR_BGR2RGB)
+                            hasil_nobg = st.session_state.no_bg[:, :, ::-1]
                             st.image(hasil_nobg,caption="Hasil Remove Background", use_container_width=200)
                         st.markdown("""
                             Jika hasil gambar tersebut tidak menangkap visualisasi makanan,
