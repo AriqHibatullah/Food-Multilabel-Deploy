@@ -69,7 +69,6 @@ def ekstrak_glcm(image, distances=[1, 2], angles=[0, np.pi/4, np.pi/2, 3*np.pi/4
 
     return np.array(fitur)
 
-# === Fungsi preprocessing ===
 def remove_background(img_bgr):
     img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
     result = remove(img_rgb)
@@ -85,23 +84,18 @@ hog_params = {
     'feature_vector': True
 }
 
-# === Ekstraksi fitur gabungan (dengan scaling + PCA) ===
 def ekstrak_fitur(img, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
-    # Histogram spasial
     hist = ekstrak_color(img)
     hist_scaled = scaler_hist.transform([hist])
 
-    # HOG
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     hog_feat = hog(gray, **hog_params)
     hog_scaled = scaler_hog.transform([hog_feat])
     hog_pca = pca.transform(hog_scaled)
 
-    # LBP
     lbp_feat = ekstrak_lbp(img)
     lbp_scaled = scaler_lbp.transform([lbp_feat])
 
-    # GLCM
     glcm_feat = ekstrak_glcm(gray)
     glcm_scaled = scaler_glcm.transform([glcm_feat])
 
@@ -109,7 +103,6 @@ def ekstrak_fitur(img, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
 
     return fitur
 
-# === Fungsi klasifikasi + estimasi gizi ===
 def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
     if not isinstance(image, np.ndarray):
         image_np = np.array(image)
@@ -128,7 +121,6 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
 
     return gizi_total, pred_labels, image
 
-# === Hitung AKG ===
 def hitung_akg(gender, berat, tinggi, usia, aktivitas_input) :
     if gender == 'Pria':
         bmr = 66 + (13.7 * berat) + (5 * tinggi) - (6.8 * usia)
@@ -151,7 +143,6 @@ def hitung_akg(gender, berat, tinggi, usia, aktivitas_input) :
 
     return total_kalori, kebutuhan_karbo, kebutuhan_protein, kebutuhan_lemak
 
-# === Rekomendasi Makanan ===
 def get_gap(progress, target):
     return {k: target[k] - progress[k] for k in target}
 
@@ -184,7 +175,6 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
         gap = get_gap(progress, target)
         zat_dominan = max(gap, key=lambda k: abs(gap[k]))
 
-        # Aturan pemilihan label
         if zat_dominan == 'karbohidrat':
             label = 'makanan energi'
         elif zat_dominan == 'protein':
