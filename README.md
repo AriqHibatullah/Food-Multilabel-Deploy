@@ -1,2 +1,2 @@
-# Prediksi makanan berserta estimasi gizi menggunakan citra makanan
+# Prediksi Makanan Berserta Estimasi Gizi Menggunakan Citra Makanan
 Deployment dari hasil model Multilabel Classification yang dibuat.
