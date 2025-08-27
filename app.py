@@ -70,7 +70,7 @@ with col1 :
 
     with st.expander("Tentang model"):
         st.markdown("""
-            jelaskan tentang model
+            Kami mengembangkan beberapa model untuk menguji performa masing-masing model tersebut. Model-model yang telah berhasil dikembangkan adalah sebagai berikut:
         """)
 
     with st.expander("Tentang perhitungan AKG"):
@@ -399,3 +399,4 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
