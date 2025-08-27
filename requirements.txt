@@ -9,4 +9,5 @@ scikit-image
 joblib
 Pillow
 plotly
-tensorflow>=2.12.0
+tensorflow
+
