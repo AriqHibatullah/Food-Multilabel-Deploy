@@ -138,7 +138,7 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
     if model == 'model':
         fitur = ekstrak_fitur(image, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm).reshape(1, -1)
     elif model == 'model_pro':
-        fitur = ekstrak_resnet50(image)
+        fitur = ekstrak_resnet50(image).reshape(1, -1)
         
     gizi_total, pred_labels = modeling(model, thresholds, fitur)
     
@@ -237,6 +237,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
