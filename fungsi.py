@@ -116,6 +116,16 @@ def ekstrak_resnet50(image):
 
     return fitur
 
+def modeling(fitur) :
+    probs = model.predict_proba(fitur)[0]
+    pred = (probs >= thresholds).astype(int)
+    pred_labels = [label for label, val in zip(label_names, pred) if val == 1]
+
+    df_terpilih = df[df['nama'].isin(pred_labels)]
+    gizi_total = df_terpilih.drop(columns='nama').sum(numeric_only=True)
+
+    return gizi_total, pred_labels
+
 def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
     if not isinstance(image, np.ndarray):
         image_np = np.array(image)
@@ -129,12 +139,7 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
     elif model == 'model_pro':
         fitur = ekstrak_resnet50(image)
 
-    probs = model.predict_proba(fitur)[0]
-    pred = (probs >= thresholds).astype(int)
-    pred_labels = [label for label, val in zip(label_names, pred) if val == 1]
-    
-    df_terpilih = df[df['nama'].isin(pred_labels)]
-    gizi_total = df_terpilih.drop(columns='nama').sum(numeric_only=True)
+    gizi_total, pred_labels = modeling(fitur)
     
     return gizi_total, pred_labels, image
 
@@ -231,6 +236,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
