@@ -10,8 +10,8 @@ from fungsi import prediksi_gizi, hitung_akg, rekomendasi_makanan
 # === Load Model ===
 model = joblib.load("model/Model.pkl")
 threshold = joblib.load("model/Thresholds.pkl")
-model_pro = joblib.load("model/Model SVC Pro.pkl")
-thr_pro = joblib.load("model/Thresholds SVC Pro.pkl")
+model_pro = joblib.load("model/Model-SVC-Pro.pkl")
+thr_pro = joblib.load("model/Thresholds-SVC-Pro.pkl")
 
 df_gizi = pd.read_csv("dataset/Nilai Gizi.csv")
 asumsi = df_gizi[['nama', 'takaran saji']]
@@ -409,6 +409,7 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
 
 
