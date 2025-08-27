@@ -70,7 +70,10 @@ with col1 :
 
     with st.expander("Tentang model"):
         st.markdown("""
-            Kami mengembangkan beberapa model untuk menguji performa masing-masing model tersebut. Model-model yang telah berhasil dikembangkan adalah sebagai berikut:
+            Kami mengembangkan beberapa model untuk menguji performa masing-masing model tersebut.\n 
+            Model-model yang telah berhasil dikembangkan adalah sebagai berikut:
+            - SVC : Model yang menggunakan algoritma SVM dan juga ekstraksi fitur gabungan dari Color Histogram, HOG, LBP, dan GLCM, dilanjutkan dengan normalisasi dan reduksi.
+            - SVC Pro :  Model yang menggunakan algoritma SVM dan juga menggunakan ekstraksi fitur ResNet50. Algoritma SVM yang akan digunakan adalah Support Vector Classification (SVC) yang telah disesuaikan menggunakan One Vs Rest Classifier agar bisa menangani kasus Multilabel. Model SVC juga disesuaikan untuk tuning threshold adaptif agar tidak menggunakan threshold global (default = 0.5) dan menghasilkan threshold terbaik untuk setiap label.
         """)
 
     with st.expander("Tentang perhitungan AKG"):
@@ -399,4 +402,5 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
