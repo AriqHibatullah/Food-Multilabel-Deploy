@@ -106,12 +106,16 @@ def ekstrak_fitur(img, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
 
     return fitur
 
+@st.cache_resource
+def load_model():
+    return ResNet50(weights='imagenet', include_top=False, pooling='avg')
+
 def ekstrak_resnet50(image):
     img_array = img_to_array(image)
     img_array = np.expand_dims(img_array, axis=0)
     img_array = preprocess_input(img_array)
 
-    base_model = ResNet50(weights='imagenet', include_top=False, pooling='avg')
+    base_model = load_model()
     fitur = base_model.predict(img_array)
 
     return fitur
@@ -236,6 +240,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
