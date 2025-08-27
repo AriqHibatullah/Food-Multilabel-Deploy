@@ -136,10 +136,10 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
 
     if choice == 1:
         fitur = ekstrak_fitur(image, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm).reshape(1, -1)
+        gizi_total, pred_labels = modeling(model, thresholds, fitur)
     elif choice == 2:
         fitur = ekstrak_resnet50(image).reshape(1, -1)
-        
-    gizi_total, pred_labels = modeling(model, thresholds, fitur)
+        gizi_total, pred_labels = modeling(model, thresholds, fitur)
     
     return gizi_total, pred_labels, image
 
@@ -236,6 +236,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
