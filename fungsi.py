@@ -126,7 +126,7 @@ def modeling(model, thresholds, fitur) :
 
     return gizi_total, pred_labels
 
-def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
+def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm, choice):
     if not isinstance(image, np.ndarray):
         image_np = np.array(image)
         image = cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)
@@ -134,10 +134,9 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
     image = cv2.resize(image, (224, 224))
     image = remove_background(image)
 
-    fitur = None
-    if model == 'model':
+    if model == 1:
         fitur = ekstrak_fitur(image, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm).reshape(1, -1)
-    elif model == 'model_pro':
+    elif model == 2:
         fitur = ekstrak_resnet50(image).reshape(1, -1)
         
     gizi_total, pred_labels = modeling(model, thresholds, fitur)
@@ -237,6 +236,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
