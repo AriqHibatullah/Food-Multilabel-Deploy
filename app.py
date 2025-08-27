@@ -101,9 +101,9 @@ with col2 :
 
                 time.sleep(5)
                 if model_choice == 'SVC' :
-                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model, threshold, df_gizi, pca, scale_hist, scale_hog, scale_lbp, scale_glcm)
+                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model, threshold, df_gizi, pca, scale_hist, scale_hog, scale_lbp, scale_glcm, 1)
                 elif model_choice == 'SVC Pro' :
-                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model_pro, thr_pro, df_gizi)
+                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model_pro, thr_pro, df_gizi, pca, scale_hist, scale_hog, scale_lbp, scale_glcm, 2)
                     
                 if gizi_gambar is not None :
                     st.session_state.gizi_gambar = gizi_gambar
@@ -409,6 +409,7 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
 
 
