@@ -116,7 +116,7 @@ def ekstrak_resnet50(image):
 
     return fitur
 
-def modeling(fitur) :
+def modeling(model, thresholds, fitur) :
     probs = model.predict_proba(fitur)[0]
     pred = (probs >= thresholds).astype(int)
     pred_labels = [label for label, val in zip(label_names, pred) if val == 1]
@@ -140,7 +140,7 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
     elif model == 'model_pro':
         fitur = ekstrak_resnet50(image)
         
-    gizi_total, pred_labels = modeling(fitur)
+    gizi_total, pred_labels = modeling(model, thresholds, fitur)
     
     return gizi_total, pred_labels, image
 
@@ -237,6 +237,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
