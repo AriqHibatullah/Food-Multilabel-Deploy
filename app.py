@@ -10,6 +10,9 @@ from fungsi import prediksi_gizi, hitung_akg, rekomendasi_makanan
 # === Load Model ===
 model = joblib.load("model/Model.pkl")
 threshold = joblib.load("model/Thresholds.pkl")
+model_pro = joblib.load("model/Model SVC Pro.pkl")
+thr_pro = joblib.load("model/Thresholds SVC Pro.pkl")
+
 df_gizi = pd.read_csv("dataset/Nilai Gizi.csv")
 asumsi = df_gizi[['nama', 'takaran saji']]
 df_makanan = pd.read_csv("dataset/Dataset Makanan.csv")
@@ -53,9 +56,9 @@ with col1 :
     st.write(" ")
 
     st.write("Model yang digunakan")
-    genre = st.radio(
+    model_choice = st.radio(
         "Pilih model:",
-        ('SVC', 'SVC Pro (coming soon)')
+        ('SVC', 'SVC Pro', 'CNN (Coming soon)')
     )
 
     st.write(" ")
@@ -97,7 +100,11 @@ with col2 :
                 img = Image.open(image)
 
                 time.sleep(5)
-                gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model, threshold, df_gizi, pca, scale_hist, scale_hog, scale_lbp, scale_glcm)
+                if model_choice == 'SVC' :
+                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model, threshold, df_gizi, pca, scale_hist, scale_hog, scale_lbp, scale_glcm)
+                elif model_choice == 'SVC Pro' :
+                    gizi_gambar, pred_labels, img_nobg = prediksi_gizi(img, model_pro, thr_pro, df_gizi)
+                    
                 if gizi_gambar is not None :
                     st.session_state.gizi_gambar = gizi_gambar
                     st.session_state.pred_labels = pred_labels
@@ -402,5 +409,6 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
 

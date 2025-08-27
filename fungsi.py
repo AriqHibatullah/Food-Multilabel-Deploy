@@ -3,6 +3,9 @@ import numpy as np
 from rembg import remove
 from skimage.feature import hog, local_binary_pattern
 from skimage.feature.texture import graycomatrix, graycoprops
+from tensorflow.keras.applications import ResNet50
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing.image import img_to_array
 
 label_names = ['mie', 'telur', 'tomat', 'nasi', 'ikan', 'ayam', 'timun', 'selada']
 
@@ -103,6 +106,16 @@ def ekstrak_fitur(img, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
 
     return fitur
 
+def ekstrak_resnet50(image):
+    img_array = img_to_array(image)
+    img_array = np.expand_dims(img_array, axis=0)
+    img_array = preprocess_input(img_array)
+
+    base_model = ResNet50(weights='imagenet', include_top=False, pooling='avg')
+    fitur = base_model.predict(img_array)
+
+    return fitur
+
 def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm):
     if not isinstance(image, np.ndarray):
         image_np = np.array(image)
@@ -111,14 +124,18 @@ def prediksi_gizi(image, model, thresholds, df, pca, scaler_hist, scaler_hog, sc
     image = cv2.resize(image, (224, 224))
     image = remove_background(image)
 
-    fitur = ekstrak_fitur(image, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm).reshape(1, -1)
+    if model == 'model':
+        fitur = ekstrak_fitur(image, pca, scaler_hist, scaler_hog, scaler_lbp, scaler_glcm).reshape(1, -1)
+    elif model == 'model_pro':
+        fitur = ekstrak_resnet50(image)
+
     probs = model.predict_proba(fitur)[0]
     pred = (probs >= thresholds).astype(int)
     pred_labels = [label for label, val in zip(label_names, pred) if val == 1]
-
+    
     df_terpilih = df[df['nama'].isin(pred_labels)]
     gizi_total = df_terpilih.drop(columns='nama').sum(numeric_only=True)
-
+    
     return gizi_total, pred_labels, image
 
 def hitung_akg(gender, berat, tinggi, usia, aktivitas_input) :
@@ -214,3 +231,6 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
+
+
