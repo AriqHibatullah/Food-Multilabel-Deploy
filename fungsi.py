@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from rembg import remove
+import streamlit as st
 from skimage.feature import hog, local_binary_pattern
 from skimage.feature.texture import graycomatrix, graycoprops
 from tensorflow.keras.applications import ResNet50
@@ -240,6 +241,7 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
 
