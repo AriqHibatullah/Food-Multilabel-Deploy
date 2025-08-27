@@ -3,6 +3,9 @@ import numpy as np
 from rembg import remove
 from skimage.feature import hog, local_binary_pattern
 from skimage.feature.texture import graycomatrix, graycoprops
+from tensorflow.keras.applications import ResNet50
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing.image import img_to_array
 
 label_names = ['mie', 'telur', 'tomat', 'nasi', 'ikan', 'ayam', 'timun', 'selada']
 
@@ -228,5 +231,6 @@ def rekomendasi_makanan(df, target_k, target_p, target_l, aktual_k, aktual_p, ak
             counter_label[label] += 1
 
     return kombinasi
+
 
 
