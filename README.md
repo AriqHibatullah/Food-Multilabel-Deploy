@@ -13,3 +13,20 @@ Selain itu, aplikasi ini dilengkapi fitur untuk menghitung seberapa besar konsum
 - 📊 AKG fulfillment calculation  
 - 🧩 Smart food recommendation to meet remaining nutritional needs  
 - 🧠 Built with Streamlit, Python, and Scikit-learn
+
+## 🎥 Demo Video
+
+## 📸 Screenshots
+
+## 🛠️ Tech Stack
+- **Frontend:** Streamlit, Plotly  
+- **Machine Learning:** TensorFlow, ONNX Runtime, Scikit-learn  
+- **Image Processing:** OpenCV, Scikit-image, Pillow, Rembg  
+- **Data Processing:** Pandas, NumPy  
+- **Utilities:** Joblib
+
+## 👤 Authors
+Project ini dikembangkan oleh:
+- Muhammad Ariq Hibatullah
+- Firdaini Azmi
+- Reva Deshinta Isyana
