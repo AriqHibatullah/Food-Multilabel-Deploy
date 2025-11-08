@@ -8,6 +8,7 @@ Selain itu, aplikasi ini dilengkapi fitur untuk menghitung seberapa besar konsum
 > 🔍 Dibangun untuk menggabungkan machine learning, analisis citra digital, dan estimasi gizi dalam satu aplikasi web interaktif yang ringan.
 
 ## 🚀 Try the App
+Coba aplikasi web-nya disini:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://prediksi-makanan-dan-gizi.streamlit.app/)
 
 ## ✨ Features
@@ -15,7 +16,7 @@ Selain itu, aplikasi ini dilengkapi fitur untuk menghitung seberapa besar konsum
 - 🍽️ Automatic nutrient estimation (carbohydrate, protein, fat, calories)  
 - 📊 AKG fulfillment calculation  
 - 🧩 Smart food recommendation to meet remaining nutritional needs  
-- 🧠 Built with Streamlit, Python, and Scikit-learn
+- 🧠 Built with Streamlit, Python, and TensorFlow/ONNX
 
 ## 🎥 Demo Video
 
