@@ -1,4 +1,5 @@
 # 🍱 NutriVision - Food Nutrient Estimation & Recommendation App
+![status](https://img.shields.io/badge/status-active-success)
 **NutriVision** adalah aplikasi web interaktif berbasis **Streamlit** yang dapat mengklasifikasikan makanan dari citra (gambar) dan memperkirakan kandungan gizinya secara otomatis.
 
 Aplikasi ini menggunakan machine learning untuk mengenali jenis makanan dari foto yang diunggah. Berdasarkan hasil klasifikasi, sistem akan menghitung estimasi kandungan gizi (karbohidrat, protein, lemak, dan kalori) untuk setiap makanan.
