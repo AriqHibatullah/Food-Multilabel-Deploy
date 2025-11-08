@@ -10,7 +10,7 @@ Selain itu, aplikasi ini dilengkapi fitur untuk menghitung seberapa besar konsum
 ## 🚀 Try the App
 Coba aplikasi web-nya disini:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://prediksi-makanan-dan-gizi.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nutrivision-web.streamlit.app/)
 
 ## ✨ Features
 - 🧁 Food image classification using machine learning  
