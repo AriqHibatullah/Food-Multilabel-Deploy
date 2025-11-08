@@ -5,7 +5,10 @@ Aplikasi ini menggunakan machine learning untuk mengenali jenis makanan dari fot
 
 Selain itu, aplikasi ini dilengkapi fitur untuk menghitung seberapa besar konsumsi makanan tersebut memenuhi Angka Kecukupan Gizi (AKG) harian, serta memberikan rekomendasi makanan tambahan untuk menyeimbangkan kebutuhan gizi pengguna.
 
-> 🔍 Built to combine computer vision, nutritional science, and interactive visualization in one lightweight web app.
+> 🔍 Dibangun untuk menggabungkan machine learning, analisis citra digital, dan estimasi gizi dalam satu aplikasi web interaktif yang ringan.
+
+## 🚀 Try the App
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://prediksi-makanan-dan-gizi.streamlit.app/)
 
 ## ✨ Features
 - 🧁 Food image classification using machine learning  
