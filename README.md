@@ -44,7 +44,7 @@ Tonton video demonstrasinya disini:
 - **Utilities:** Joblib
 
 ## 📐 Nutrient Estimation Formula
-Pada app ini untuk perhitungan AKG harian, kami menggunakan rumus Harris Benedict yang bersumber dari website mymealcatering. Website tersebut bisa diakses [disini](https://www.mymealcatering.com/kesehatan/cara-menghitung-akg-yang-benar.html)
+Pada app ini untuk perhitungan AKG harian, kami menggunakan rumus Harris Benedict yang bersumber dari website mymealcatering. Website tersebut bisa diakses [disini](https://www.mymealcatering.com/kesehatan/cara-menghitung-akg-yang-benar.html).
 
 ## 👤 Authors
 Project ini dikembangkan oleh:
