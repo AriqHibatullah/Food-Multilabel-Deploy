@@ -28,7 +28,7 @@ Tonton video demonstrasinya disini:
 
 ## 📸 Screenshots
 - Landing page.
-<img src="images/image1.png" alt="Landing page" width="600"/>
+<img src="images/image11.png" alt="Landing page" width="600"/>
 - Klasifikasi makanan dan memberi estimasi kandungan gizinya.
 <img src="images/image2.png" alt="page 1" width="600"/>
 - Perhitungan AKG harian yang diperlukan.
