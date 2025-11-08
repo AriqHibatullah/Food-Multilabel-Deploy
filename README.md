@@ -20,6 +20,11 @@ Coba aplikasi web-nya disini:
 - 🧠 Built with Streamlit, Python, and TensorFlow/ONNX
 
 ## 🎥 Demo Video
+Tonton video demonstrasinya disini:
+
+<a href="https://youtu.be/Xas1ppdAxqU">
+  <img src="https://img.youtube.com/vi/Xas1ppdAxqU/0.jpg" width="350">
+</a>
 
 ## 📸 Screenshots
 - Landing page.
