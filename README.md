@@ -38,6 +38,9 @@ Coba aplikasi web-nya disini:
 - **Data Processing:** Pandas, NumPy  
 - **Utilities:** Joblib
 
+## 📐 Nutrient Estimation Formula
+Pada app ini untuk perhitungan AKG harian, kami menggunakan rumus Harris Benedict yang bersumber dari artikel pada website [mymealcatering](https://www.mymealcatering.com/kesehatan/cara-menghitung-akg-yang-benar.html)
+
 ## 👤 Authors
 Project ini dikembangkan oleh:
 - Muhammad Ariq Hibatullah - S1 Sains Data
