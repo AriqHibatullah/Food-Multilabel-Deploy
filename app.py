@@ -84,13 +84,14 @@ with col1 :
             Untuk rumus yang digunakan untuk menghitung AKG harian, kami menggunakan rumus Harris Benedict sebagai berikut:
             - Laki-laki = 66 + (13,7 x berat badan ) + (5 x tinggi badan) – (6,8 x usia)
             - Wanita = 655 + (9,6 x berat badan) + (1,8 x tinggi badan) – (4,7 x usia)
+            \n
             Setelah mengetahui hasilnya, kalikan lagi sesuai dengan aktivitas:
             - Sangat jarang berolahraga: dikali 1,2
             - Jarang olahraga (1-3 kali per minggu): dikali 1,375
             - Cukup olahraga (3-5 kali per minggu): dikali 1,55
             - Sering olahraga (6-7 kali per minggu): dikali 1,725
             - Sangat sering olahraga (sekitar 2 kali dalam sehari): dikali 1,9
-            
+            \n
             Perhitungan untuk tiap gizi:
             - Protein: 15% dari total kalori, dan dibagi 4
             - Karbohidrat: 60% dari total kalori, dan dibagi 4
@@ -422,6 +423,7 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
 
 
