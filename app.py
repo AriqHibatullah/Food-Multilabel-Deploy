@@ -51,7 +51,7 @@ if "last_uploaded_image" not in st.session_state:
     st.session_state.last_uploaded_image = None
 
 with col1 :
-    st.title("Prediksi Gizi dari Foto Makanan")
+    st.title("NutriVision")
     st.write("Prediksi makanan dan gizinya berbasis Machine Learning menggunakan model Multilabel Classification.")
     st.write(" ")
 
@@ -409,6 +409,7 @@ with col2 :
                 st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
         else: 
             st.info("💡 Rekomendasi akan muncul setelah Anda mengisi data AKG dan upload gambar makanan.")
+
 
 
 
