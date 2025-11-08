@@ -40,9 +40,9 @@ Coba aplikasi web-nya disini:
 
 ## 👤 Authors
 Project ini dikembangkan oleh:
-- Muhammad Ariq Hibatullah
-- Firdaini Azmi
-- Reva Deshinta Isyana
+- Muhammad Ariq Hibatullah - S1 Sains Data
+- Firdaini Azmi - S1 Sains Data
+- Reva Deshinta Isyana - S1 Sains Data
 
 ## 🆕 Update Log
 ### 🔸 v1.2 – Agustus 2025
