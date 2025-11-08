@@ -23,7 +23,7 @@ Coba aplikasi web-nya disini:
 Tonton video demonstrasinya disini:
 
 <a href="https://youtu.be/Xas1ppdAxqU">
-  <img src="https://img.youtube.com/vi/Xas1ppdAxqU/0.jpg" width="350">
+  <img src="https://img.youtube.com/vi/Xas1ppdAxqU/0.jpg" width="500">
 </a>
 
 ## 📸 Screenshots
