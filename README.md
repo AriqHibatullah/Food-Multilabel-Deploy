@@ -22,9 +22,13 @@ Coba aplikasi web-nya disini:
 ## 🎥 Demo Video
 
 ## 📸 Screenshots
+- Landing page.
 <img src="images/image1.png" alt="Landing page" width="600"/>
+- Saat input makanan, mengklasifikasikan makanan dan memberi estimasi kandungan gizinya.
 <img src="images/image2.png" alt="page 1" width="600"/>
+- Perhitungan AKG harian yang diperlukan.
 <img src="images/image3.png" alt="page 2" width="600"/>
+- Rekomendasi makanan yang bisa memenuhi AKG harian.
 <img src="images/image4.png" alt="page 3" width="600"/>
 
 ## 🛠️ Tech Stack
