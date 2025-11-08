@@ -22,6 +22,10 @@ Coba aplikasi web-nya disini:
 ## 🎥 Demo Video
 
 ## 📸 Screenshots
+<img src="images/image1.png" alt="Landing page" width="400"/>
+<img src="images/image2.png" alt="page 1" width="400"/>
+<img src="images/image3.png" alt="page 2" width="400"/>
+<img src="images/image4.png" alt="page 3" width="400"/>
 
 ## 🛠️ Tech Stack
 - **Frontend:** Streamlit, Plotly  
