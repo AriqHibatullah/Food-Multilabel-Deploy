@@ -43,3 +43,12 @@ Project ini dikembangkan oleh:
 - Muhammad Ariq Hibatullah
 - Firdaini Azmi
 - Reva Deshinta Isyana
+
+## 🆕 Update Log
+### 🔸 v1.2 – Agustus 2025
+- Menambahkan model SVC Pro ke dalam program
+- Memperbarui UI Streamlit
+
+### 🔸 v1.1 – Mei 2025
+- Menambahkan model SVC ke dalam program
+- Menambahkan fitur hitung AKG harian dan rekomendasi makanan
